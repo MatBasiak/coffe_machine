@@ -1,0 +1,6 @@
+text = input()
+no_comma = text.replace(",", "")
+no_dot = no_comma.replace(".", "")
+no_exclamation = no_dot.replace("!", "")
+no_question = no_exclamation.replace("?", "")
+print(no_question.lower())
