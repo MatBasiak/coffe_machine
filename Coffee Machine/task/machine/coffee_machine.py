@@ -45,4 +45,5 @@ if number_of_coffees == n_total:
 elif number_of_coffees > n_total:
     print("No, I can make only", n_total, "cups of coffee")
 elif number_of_coffees < n_total:
-    print("Yes, I can make that amount of coffee (and even", n_total - number_of_coffees, "more than that)")
+    print("Yes, I can make that amount of coffee (and even",
+          n_total - number_of_coffees, "more than that)")
